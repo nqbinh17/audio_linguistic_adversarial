@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.env
+.vscode/
+
+# Conda environments
+.conda/
+.jupyter/
+.ipython/
+.DS_Store
+
+# Operating System files
+.DS_Store
+.Trash-*
+*.bak
+*~
+
+# Miniconda installer
+Miniconda3-latest-Linux-x86_64.sh
+
+# Fairseq (if it's a submodule or just a local copy, you might want to adjust)
+# If fairseq is a submodule, you generally don't ignore the directory itself,
+# but rather its internal build files. If it's just copied, then you'd ignore
+# its build artifacts.
+# For now, assuming fairseq/ is where you have your fairseq project.
+fairseq/*.egg-info/
+fairseq/build/
+fairseq/dist/
